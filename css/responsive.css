@@ -1,0 +1,268 @@
+@media screen and (max-width: 1600px) {
+    .banner-text h1 {
+        font-size: 70px;
+    }
+}
+@media(max-width:1200px){
+    a.site-logo img, .footer-logo img {
+        max-width: 180px;
+    }
+    .site-navbar ul li a {
+        padding: 7px 0;
+        font-size: 16px;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .wel-come-txt h3 {
+        font-size: 40px;
+    }
+    .wel-come-txt p, .choose-txt p, .bottom-txt p, .caribe-txt p, .hotel-txt p {
+        font-size: 16px;
+    }
+    .welcome-img {
+        height: 350px;
+    }
+    .where-box h3 {
+        font-size: 22px;
+    }
+    .where-box {
+        height: 350px;
+    }
+    .choose-heading h3 {
+        font-size: 35px;
+    }
+    .choose-txt h4 {
+        font-size: 22px;
+    }
+    .choose-box {
+        padding: 20px;
+        height: 300px;
+    }
+    .choose-icn {
+        height: 50px;
+        width: 50px;
+    }
+    .social-links ul li a {
+        font-size: 25px;
+    }
+    .footer-links h3 {
+        font-size: 25px;
+    }
+    .footer-links ul li a {
+        font-size: 15px;
+}
+.bnr-bottom-txt p {
+    font-size: 16px;
+    width: 80%;
+}
+.caribe-heading h3 {
+    font-size: 35px;
+    width: 60%;
+}
+.caribe-txt h3, .hotel-txt h4 {
+    font-size: 25px;
+}
+.location span {
+    font-size: 13px;
+}
+.explore a {
+    font-size: 14px;
+}
+.caribe-txt {
+    padding: 30px;
+}
+.hotel-txt {
+    height: 290px;
+}
+}
+@media screen and (max-width: 991px) {
+
+    /* navbar css for mobile start */
+    .nav-toggler {
+        display: block;
+    }
+
+    .site-navbar {
+        min-height: 60px;
+    }
+
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0px;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white);
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.3s;
+        z-index: 999;
+    }
+
+    .site-navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-navbar ul li a {
+        padding: 25px;
+        color: var(--black);
+    }
+
+    .site-navbar ul li a.active {
+        color: var(--red) !important;
+    }
+
+    .site-navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+        padding-top: 60px;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .bar-vid {
+        height: 90vh;
+    }
+    .hotel-txt {
+        height: 250px;
+    }
+}
+
+@media(max-width:850px){
+    .welcome-img {
+        width: 100%;
+    }
+    .wel-come-txt {
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .welcome-wrap {
+        flex-direction: column;
+        background-color: #FAF7FF;
+        margin-bottom: 20px;
+    }
+    .welcome-wrap:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .where-box, .choose-box  {
+        width: 48%;
+    }
+    .where-wrap, .choose-wrap {
+        flex-wrap: wrap;
+    }
+    .choose-box {
+        padding: 40px 10px;
+    }
+    .footer-links {
+        margin-top: 20px;
+    }
+    .choose-box:nth-child(3), .where-box:nth-child(3){
+        width: 100%;
+    }
+    .caribe-heading h3 {
+        font-size: 30px;
+    }
+    .caribe-box {
+        height: auto;
+        flex-direction: column;
+        background-color: #FAF7FF;
+    }
+    .caribe-box:nth-child(2), .caribe-box:nth-child(4), .caribe-box:nth-child(6){
+        flex-direction: column-reverse;
+    }
+    .caribe-img {
+        width: 100%;
+        height: 300px;
+    }
+    .caribe-txt {
+        width: 100%;
+        padding: 15px;
+    }
+    .sub-banner .bar-vid {
+        height: 65vh;
+    }
+    .Islands .caribe-box {
+        height: auto;
+    }
+}
+
+@media(max-width:767px){
+    a.site-logo img, .footer-logo img {
+        max-width: 170px;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .banner-text p {
+        font-size: 16px;
+    }
+    .bar-vid {
+        height: 70vh;
+    }
+    .welcome-img, .where-box {
+        height: 300px;
+    }
+    .wel-come-txt h3 {
+        font-size: 30px;
+    }
+    .wel-come-txt {
+        padding: 20px 10px;
+    }
+    .where-box, .choose-box {
+        width: 100%;
+    }
+    .choose-heading h3 {
+        font-size: 30px;
+    }
+    .choose-wrap {
+        width: 100%;
+    }
+    .bottom-txt p {
+        width: 95%;
+    }
+    .social-links ul {
+        gap: 20px;
+        margin: 10px 0;
+    }
+    .footer-links {
+        margin-top: 10px;
+    }
+    .site-navbar ul li a {
+        padding: 15px;
+    }
+    .banner-text {
+        padding-top: 60px;
+    }
+    .bnr-bottom-txt p {
+        width: 90%;
+        padding: 20px 0;
+    }
+    .caribe-heading h3 {
+        font-size: 25px;
+        width: 90%;
+    }
+    .caribe-img {
+        height: 250px;
+    }
+    .caribe-txt h3, .hotel-txt h4 {
+        font-size: 22px;
+    }
+    .hotel-wrap img {
+        height: 200px;
+    }
+    .hotel-txt {
+        height: auto;
+        padding: 5px;
+    }
+    .ptb-50 {
+        padding: 30px 0;
+    }
+    .disclaimer {
+        padding: 10px;
+    }
+}
