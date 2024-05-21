@@ -301,7 +301,7 @@ object-fit: cover;
     background-color: var(--bg);
 }
 .where-box{
-    background-image: url(/images/dummy.jpeg);
+    background-image: url(https://frontenddev344.github.io/escolhasdeportugal/images/dummy.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
