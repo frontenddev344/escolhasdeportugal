@@ -446,12 +446,24 @@ object-fit: cover;
 .caribe-img{
     width: 55%;
     height: 100%;
+    overflow: hidden;
 }
 .caribe-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
+
+.caribe-img:hover img{ transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2);
+}
+
+
+
 .caribe-txt h3 {
     font-size: 30px;
     color: #000;
@@ -494,15 +506,67 @@ object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
     overflow: hidden;
+    transition: all 0.3s linear;
+    position: relative;
+}
+.hotel-wrap::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.2;
+    height: 0%;
+    width: 100%;
+    z-index: 1;
+}
+.hotel-wrap:hover{
+    transform: translateY(-10px);
+}
+.hotel-wrap:hover::before{
+    height: 100%;
 }
 .hotel-txt {
     padding: 10px;
     height: 270px;
+    position: relative;
+    z-index: 2;
 }
 .hotel-wrap img {
     height: 250px;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
 }
 .hotel-txt h4 {
     font-size: 30px;
