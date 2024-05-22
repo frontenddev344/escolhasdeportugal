@@ -144,6 +144,9 @@
     .site-navbar ul li {
         padding: 0 30px 0 30px;
     }
+    .site-footer .row {
+        align-items: baseline;
+    }
 }
 
 @media(max-width:850px){
