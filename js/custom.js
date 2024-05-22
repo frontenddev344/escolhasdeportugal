@@ -28,7 +28,7 @@ function navLinkClick() {
 
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 200) {
+    if ($(window).scrollTop() >= 50) {
         $('header').addClass('fixed-header');
     }
     else {

@@ -662,3 +662,13 @@ header.page-header.is-sticky .site-navbar ul li a {
 .footer-links ul li a:hover{
     color: #e6e6e6;
 }
+.copy-right {
+    padding-top: 25px;
+    border-top: 1px solid #fff;
+}
+.copy-right p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
