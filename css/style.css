@@ -120,6 +120,7 @@ a.site-logo.black-logo {
     padding: 0;
     list-style: none;
     display: flex;
+    width: 70%;
 }
 
 .site-navbar ul li {
@@ -287,10 +288,7 @@ header.page-header.is-sticky .site-navbar ul li a {
     width: 50%;
     height: 400px;
 }
-.welcome-img img{
-height: 100%;
-width: 100%;
-object-fit: cover;
+.welcome-img img{ height: 100%; width: 100%; object-fit: cover; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px;
 }
 .welcome-wrap{
     display: flex;
