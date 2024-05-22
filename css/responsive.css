@@ -253,7 +253,7 @@
         font-size: 22px;
     }
     .hotel-wrap img {
-        height: 200px;
+        height: 250px;
     }
     .hotel-txt {
         height: auto;
@@ -264,5 +264,10 @@
     }
     .disclaimer {
         padding: 10px;
+    }
+}
+@media(max-width:575px){
+    .hotel-wrap img {
+        height: 200px;
     }
 }
