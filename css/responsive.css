@@ -120,6 +120,7 @@
     .site-navbar ul li a {
         padding: 25px;
         color: var(--black);
+        border-bottom: 1px solid;
     }
 
     .site-navbar ul li a.active {
