@@ -1,6 +1,10 @@
+
 @media screen and (max-width: 1600px) {
     .banner-text h1 {
         font-size: 70px;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 50px;
     }
 }
 @media(max-width:1200px){
@@ -74,6 +78,9 @@
 }
 .hotel-txt {
     height: 290px;
+}
+.sub-banner .banner-text h1 {
+    font-size: 45px;
 }
 }
 @media screen and (max-width: 991px) {
@@ -184,10 +191,13 @@
         padding: 15px;
     }
     .sub-banner .bar-vid {
-        height: 65vh;
+        height: 55vh;
     }
     .Islands .caribe-box {
         height: auto;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 40px;
     }
 }
 
@@ -264,6 +274,9 @@
     }
     .disclaimer {
         padding: 10px;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 30px;
     }
 }
 @media(max-width:575px){
