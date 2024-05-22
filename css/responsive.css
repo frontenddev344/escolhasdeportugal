@@ -39,6 +39,9 @@
     .choose-txt h4 {
         font-size: 22px;
     }
+    .location span img {
+        width: 20px;
+    }
     .choose-box {
         padding: 20px;
         height: 300px;
@@ -141,6 +144,9 @@
 }
 
 @media(max-width:850px){
+    .location span {
+        font-size: 14px;
+    }
     .welcome-img {
         width: 100%;
     }

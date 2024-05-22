@@ -486,6 +486,11 @@ object-fit: cover;
     margin-block-start: 5px;
     font-weight: 700;
     text-decoration: underline;
+    display: flex;
+    align-items: end;
+}
+.location span img {
+    width: 25px;
 }
 .location {
     /* display: flex;
