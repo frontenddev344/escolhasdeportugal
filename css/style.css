@@ -411,6 +411,9 @@ header.page-header.is-sticky .site-navbar ul li a {
 }
 .sub-banner .banner-text h1 {
     font-size: 55px;
+ margin-bottom: 10px;
+}
+.sub-banner .banner-text{
     max-width: 600px;
     margin: 0 auto;
 }
