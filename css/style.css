@@ -593,7 +593,8 @@ header.page-header.is-sticky .site-navbar ul li a {
     font-size: 18px;
 }
 .bnr-bottom-txt{
-    background-color: #e6e6e6;
+    background-color: #faf7ff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .Islands .caribe-box {
     height: 450px;
