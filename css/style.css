@@ -739,3 +739,19 @@ header.page-header.is-sticky .site-navbar ul li a {
     color: #000;
     font-weight: 700;
 }
+.site-main-wrap h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+.site-main-wrap p{
+    font-size: 16px;
+}
+.site-main-wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.site-main-heading {
+    margin-top: 50px;
+}
