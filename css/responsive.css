@@ -228,6 +228,11 @@
     .site-main-wrap {
         width: 95%;
     }
+    .bnr-bottom-txt p {
+        font-size: 16px;
+        width: 95%;
+        padding: 25px;
+    }
 }
 
 @media(max-width:767px){
@@ -281,8 +286,8 @@ font-size: 14px;
         padding-top: 60px;
     }
     .bnr-bottom-txt p {
-        width: 90%;
-        padding: 20px 0;
+        width: 95%;
+        padding: 20px;
     }
     .caribe-heading h3 {
         font-size: 25px;
